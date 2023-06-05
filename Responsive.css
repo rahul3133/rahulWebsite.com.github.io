@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width:1200px) {
+    .flex-hero .detials-section h1 {
+        font-size: 30px;
+    }
+
+    .flex-hero .detials-section p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:910px) {
+    .flex-hero .detials-section h1 {
+        font-size: 22px;
+        letter-spacing: -1px;
+    }
+
+    .flex-hero .detials-section p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width:700px) {
+    .background {
+        display: none;
+    }
+
+    .flex-hero .detials-section {
+        width: 90%;
+        text-align: left;
+    }
+
+    .flex-hero .detials-section p {
+        font-size: 16px;
+    }
+
+    .navbar .navition .nav-links {
+        flex-direction: column;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .navbar .navition .nav-links li {
+        margin: 0;
+    }
+
+    .navbar .navition .nav-links li a {
+        letter-spacing: 2px;
+    }
+
+    .navbar .navition {
+        width: 100%;
+    }
+    .sticky{
+        position:static;
+    }
+    .navbar {
+        height: auto;
+        text-align: center;
+    }
+
+    .navbar .logo {
+        display: none;
+    }
+    .about-hero-section{
+        padding-top:50%;
+    }
+
+    header {
+        background: #5861e8;
+        transition: 0.8s;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 2;
+    }
+    .flex-hero{
+        background-image:url('file:///D:/Websites/Multipage%20EducationSchool%20Website%20by%20Rahul%20Goswami/images/header.svg');
+        background-size:cover;
+        background-position:center;
+    }
+}
+
+@media (max-width:900px) {
+    .categories-main {
+        grid-template-columns: 100%;
+    }
+
+    .categories-main .cate-details {
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .categories-main .cate-details h2 {
+        margin-bottom: 1%;
+    }
+
+    .categories-main .cate-details p {
+        margin-bottom: 3%;
+    }
+
+}
+
+@media (max-width:600px) {
+    .categories-main .cate-icons {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width:950px) {
+    .cource-container .cource-main .first-sec .dis h2 {
+        font-size: 18px;
+    }
+
+    .cource-container .cource-main {
+        flex-direction: column;
+    }
+
+    .cource-container .cource-main .first-sec {
+        width: 100%;
+    }
+
+    .first-sec .cource-img {
+        height: auto;
+    }
+
+    .cource-container .cource-main .first-sec {
+        margin-top: 10%;
+    }
+}
+
+@media (max-width:670px) {
+    .faqs_container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:1255px){
+    .flex .flex-col h2{
+        font-size:15px;
+    }
+    .flex .flex-col p{
+        font-size:10px;
+    }
+}
+
+@media (max-width:1100px){
+    .flex .flex-col .social-media-icons i{
+        font-size:18px;
+    }
+}
+
+@media (max-width:782px){
+    .flex{
+        text-align:center;
+    }
+}
+
+@media (max-width:700px){
+    .flex{
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    .flex .flex-col{
+        width:30%;
+    }
+    .flex .flex-col p{
+        margin-top:3%;
+        letter-spacing:2px;
+    }
+    .flex .flex-col{
+        margin-top:3%;
+    }
+    .about-hero-section{
+        padding-top:20%;
+    }
+}
+
+@media (max-width:1050px){
+    .hero-main{
+        padding-top:5%;
+    }
+    header{
+        position:static;
+        height:auto;
+        margin-bottom:0;
+    }
+    .hero-main{
+        margin-top:0;
+    }
+    .navbar{
+        padding-bottom:0;
+    }
+    .about-hero-section{
+        margin-top:0;
+        padding-top:0;
+    }
+}
+
+@media (max-width:800px){
+    .image-sec{
+        display:none;
+    }
+    .hero-details{
+        width:100%;
+        padding:10%;
+    }
+}
+
+@media (max-width:600px){
+    .img-icons{
+        grid-template-columns: 1fr;
+    }
+    .hero-main{
+        text-align:center;
+    }
+}
+
+@media (max-width:900px){
+    .team_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:550px){
+    .team_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width:1000px){
+    .main-container{
+        flex-direction:column;
+    }
+    .main-container{
+        height:auto;
+        background:none;
+    }
+    .SignUp-box{
+        width:100%;
+        background: #5861e8;
+        margin-top:5%;
+    }
+    .information-box{
+        width:100%;
+    }
+    .infor-img{
+        max-width:500px;
+    }
+    .social-icons i{
+        margin:1%;
+    }
+}
+
+@media (max-width:866px){
+    .hero-main-container{
+        flex-direction:column;
+    }
+    .hero-main-container .details-hero{
+        margin-top:5%;
+    }
+}
+
+@media (max-width:470px){
+    .hero-main-container{
+        padding:1%;
+        padding-top:5%;
+    }
+}
+
+@media (max-width:400px){
+    .hero-main-container .details-hero h2{
+        font-size:18px;
+    }
+    .hero-main-container .details-hero p{
+        font-size:14px;
+    }
+}
